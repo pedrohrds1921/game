@@ -42,6 +42,11 @@ main{
 }
 
 /*screenOne*/
+.msgwrong ,.msgwrong2  {
+    margin-top: 2.5rem;
+    color: red;
+    transition: display 3s;
+}
 h1{
     font-size: clamp(2vw,2.5rem);
     color: #91bae0;
