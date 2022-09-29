@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+    <title>The Game</title>
+</head>
+<body>
+   <Main>
+    <div class="screenOne ">
+        <H1>Jogo da Adivinhação</H1>
+        <p>Adivinhe um número entre 0 e 10</p>
+        <form>
+            <input id= "inputNumber" type="text" maxlength="2">
+            <button onclick="handleClick(event)">Tentar</button>
+        </form>
+    </div>
+    <div  class="screenTwo hide">
+        <h2>Acertou em 3 tentativas!</h2>
+        <button onclick="restarGame()">Jogar novamente</button> 
+
+    </div>
+   </Main>
+    
+
+   <script src="js/script.js"></script>
+</body>
+</html>
